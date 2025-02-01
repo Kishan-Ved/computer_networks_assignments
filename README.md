@@ -30,4 +30,8 @@ sudo g++ -o p p2q1.cpp -lpcap
 ```
 
 ## q2, q3,q4
-The solutions are in the corresponding cpp files. Run as instructed above.
+The solutions are in the corresponding cpp files. Run as instructed in Part 2 Q1 above.
+
+# Part 3
+## q1
+The captured pcap file for q1 is `q3.pcap` 
