@@ -9,7 +9,7 @@ sudo g++ -o p packet_sniffer.cpp -lpcap
 sudo ./p
 ```
 
-To stop capturing the packets, click `Ctrl + cx`
+To stop capturing the packets, click `Ctrl + c`
 
 This program stores captured packets in `captured_packets.pcap`
 
