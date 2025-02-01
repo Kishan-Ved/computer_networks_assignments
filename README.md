@@ -1,6 +1,18 @@
 # cn_a1
 
 # Part 1
+`packet_sniffer.cpp` contains the packet sniffer.
+
+Run the file as follows:
+```
+sudo g++ -o p packet_sniffer.cpp -lpcap
+sudo ./p
+```
+
+To stop capturing the packets, click `Ctrl + cx`
+
+This program stores captured packets in `captured_packets.pcap`
+
 ## q1
 Solution in `p1q1.cpp`
 
