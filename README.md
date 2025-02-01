@@ -22,6 +22,8 @@ sudo g++ -o p p1q1.cpp -lpcap
 ./p
 ```
 
+Code for generating the histogram is in `hist.py`
+
 ## q2, q3
 Solutions in `p1q2.cpp` and `p1q3.cpp` respectively.
 
