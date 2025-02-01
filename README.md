@@ -1,4 +1,4 @@
-# cn_a1
+# Computer Networks Assignment 1
 
 # Part 1
 `packet_sniffer.cpp` contains the packet sniffer.
