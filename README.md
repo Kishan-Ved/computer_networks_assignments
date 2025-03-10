@@ -7,6 +7,30 @@ The report is `12-22110099_22110122.pdf`
 
 All relevant files are in the `./task1` directory. 
 
+`pcap_analysis.py` contains code for finding throughput, goodput and packet loss rate for any pcap. This is used in all the sub questions of this part.
+
+## Subtask a
+
+Code is in `a2_p1.py`. Run using `sudo python3 a2_p1.py --ccs='bbr'`. The congestion control scheme can be set using the `-ccs=''` argument.
+
+## Subtask b
+
+Code is in `a2_p1_q2.py`. Run using `sudo python3 a2_p1_q2.py --ccs='bbr'`. The congestion control scheme can be set using the `-ccs=''` argument.
+
+## Subtask c
+
+### Subquestion 1
+
+Code is in `a2_p1_q3.py`. Run using `sudo python3 a2_p1_q3.py --ccs='bbr'`. The congestion control scheme can be set using the `-ccs=''` argument.
+
+### Subquestion 2
+
+Code is in `a2_p1_q3_b3.py`. Run using `sudo python3 a2_p1_q3_b3.py --ccs='bbr'`. The congestion control scheme can be set using the `-ccs=''` argument.
+
+## Subtask d
+
+Code is in `a2_p1_q4_loss5.py`. Run using `sudo python3 a2_p1_q4_loss5.py --ccs='bbr' --loss=5`. The congestion control scheme can be set using the `-ccs=''` argument. The loss persent on the link between can be set using the `--loss=5` argument.
+
 # Task 2
 
 All relevant files are in the `./task2` directory. 
