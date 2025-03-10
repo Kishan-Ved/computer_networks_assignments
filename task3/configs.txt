@@ -1,0 +1,4 @@
+cconfig0 - 0, 0 => Nagle Dis, Delayed Ack       (config_no = 0)
+config1 - 0, 1 => Nagle Dis, No Delayed Ack     (config_no = 1)
+config2 - 1, 0 => Nagle En, Delayed Ack         (config_no = 2)
+config3 - 1, 1 => Nagle En, No Delayed Ack      (config_no = 3)

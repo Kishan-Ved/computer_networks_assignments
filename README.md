@@ -1,54 +1,32 @@
-# Computer Networks Assignment 1
+# Computer Networks Assignment 2
 
 # Report
-The report is in `17-22110099_22110122.pdf`
+The report is `12-22110099_22110122.pdf`
 
-# Part 1
-`packet_sniffer.cpp` contains the packet sniffer.
+# Task 1
 
-Run the file as follows:
+All relevant files are in the `./task1` directory. 
+
+# Task 2
+
+All relevant files are in the `./task2` directory. 
+To emulate syn-flood attack on Mininet, run the following command:
 ```
-sudo g++ -o p packet_sniffer.cpp -lpcap
-sudo ./p
+sudo python3 main.py <filename> <mitigate_bool>
 ```
+where `filename` is the name of the output pcap file, and `mitigate_bool` is a boolean value (True or False) to indicate whether to mitigate the attack or not. When set to True, mitigation is applied. When set to False, attack is performed.
 
-To stop capturing the packets, click `Ctrl + c`
+The captured traffic is stored as `capture_mitigated.pcap` and `capture_syn_flood.pcap` for mitigation attempt and syn-food attack, respectively. Analysis is provided in `analysis.ipnb`
 
-This program stores captured packets in `captured_packets.pcap`
+# Task 3
 
-## q1
-Solution in `p1q1.cpp`
+All relevant files are in the `./task3` directory. `configs.txt` contains the information about the different configurations of Nagle's algorithm and Delayed ACK.
 
-Run the file as follows:
+To test a configuration, run the following command:
 ```
-sudo g++ -o p p1q1.cpp -lpcap
-./p
-```
+sudo python3 main.py <config_no>
+``` 
 
-Code for generating the histogram is in `hist.py`
+where `config_no` is mentioned against the configuration in `configs.txt`.
 
-## q2, q3
-Solutions in `p1q2.cpp` and `p1q3.cpp` respectively.
-
-For both these questiuns, run the file as follows:
-```
-sudo g++ -o p p1q2.cpp -lpcap
-./p output.pcap
-```
-
-# Part 2
-## q1
-Solution in `p2q1.cpp`
-
-Run the file as follows:
-```
-sudo g++ -o p p2q1.cpp -lpcap
-./p
-```
-
-## q2, q3,q4
-The solutions are in the corresponding cpp files. Run as instructed in Part 2 Q1 above.
-
-# Part 3
-## q1
-The captured pcap file for q1 is `q3.pcap` 
+The captured traffic for different configurations is stored as `config_<config_no>.pcap` Analysis is provided in `analysis.ipnb`
